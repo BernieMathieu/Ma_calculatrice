@@ -44,5 +44,40 @@
     border: purple;
   }
   
+  @media screen and (max-width:430px) {
+    .calculator {
+
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+      background-color: #fff;
+      margin: 0 auto;
+      width: 70%;
+    }
+
+    button {
+      padding: 5px;
+      color: #fff;
+      font-size: 10px;
+      background-color: #555;
+      border: none;
+      transition: 0.2s ease-in-out;
+      cursor: pointer;
+  
+    }
+
+    body {
+      padding-top: 100px;
+    }
+
+    #display{
+      padding: 15px;
+      margin-bottom: 10px;
+      font-size: 27px;
+      width: 90%;
+      border: solid 1px black;
+    }
+    
+  }
 
  
